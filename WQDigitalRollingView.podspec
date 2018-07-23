@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "WQDigitalRollingView"
-s.version      = "0.0.1"
+s.version      = "0.0.2"
 s.summary      = "数字翻滚"
 s.homepage     = "https://github.com/WQiOS/WQDigitalRollingView"
 s.license      = "MIT"

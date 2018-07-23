@@ -19,11 +19,12 @@
 @implementation WQDigitalRollingView
 
 //MARK: - 初始化
-- (instancetype)initWithFrame:(CGRect)frame textFont:(UIFont *)font {
+- (instancetype)initWithFrame:(CGRect)frame orginDigital:(NSInteger)orginDigital textFont:(UIFont *)font {
     self = [super initWithFrame:frame];
     if (self) {        
         self.orginLabel.font = font;
         self.animationDigitalLabel.font = font;
+        self.orginLabel.text = [NSString stringWithFormat:@"%ld",(long)orginDigital];
         [self addSubview:self.scrollView];
     }
     return self;

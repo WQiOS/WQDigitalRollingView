@@ -11,7 +11,7 @@
 @interface WQDigitalRollingView : UIView
 
 //MARK: - 初始化
-- (instancetype)initWithFrame:(CGRect)frame textFont:(UIFont *)font;
+- (instancetype)initWithFrame:(CGRect)frame orginDigital:(NSInteger)orginDigital textFont:(UIFont *)font;
 
 //MARK: - 设置数字后动画翻滚
 - (void)animationDigitalRolling:(NSInteger)orginDigital animationDigital:(NSInteger)animationDigital;
