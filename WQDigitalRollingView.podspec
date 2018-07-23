@@ -4,11 +4,6 @@ Pod::Spec.new do |s|
 s.name         = "WQDigitalRollingView"
 s.version      = "0.0.1"
 s.summary      = "数字翻滚"
-
-s.description  = <<-DESC
-自己总结的弹幕小插件，欢迎使用。
-DESC
-
 s.homepage     = "https://github.com/WQiOS/WQDigitalRollingView"
 s.license      = "MIT"
 s.author             = { "王强" => "1570375769@qq.com" }
